@@ -1,0 +1,78 @@
+/* General page */
+	
+	#content {
+		max-width: 1600px;
+		margin: 0 auto;
+	}
+
+/* Header and navigation */
+
+	header {
+		background-color: #6B9080;
+	}
+	nav a {
+		text-align:  center;
+		color: white;
+		text-decoration: none;
+	}
+	nav a:hover {
+		background-color: #A4C3B2;
+	}
+
+
+
+/* Body Content */
+
+	body {
+		background-color: #F6FFF8;
+	}
+	main section {
+		text-align: center;
+	}
+	#hero-img {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+	#hero-msg h1, #hero-msg h4  {
+		text-align: center;
+	}
+	.button-box {
+		text-align: center;
+	}
+	#background {
+		height: 725px;
+	}
+	.book, .join {
+		background-color:  #EAF4F4;
+		text-decoration: none;
+		color: black;
+	}
+	.book:hover, .join:hover {
+		background-color: #A4C3B2;
+	}
+	#background {
+		background-color: #A4C3B2;
+	}
+	.msg {
+		background-color: #A4C3B2;
+	}
+	.icon {
+		width: 80px;
+	}
+
+/* Footer */
+
+	footer {
+		background-color: #6B9080;
+	}
+	footer a {
+		text-decoration: none;
+		color: white;
+	}
+	footer p {
+		font-size: 1.2em;
+	}
+	footer p a:hover {
+		text-decoration: underline;
+	}
