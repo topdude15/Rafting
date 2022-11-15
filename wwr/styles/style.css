@@ -73,6 +73,10 @@
 		font-size: 2em;
 		margin-top: 10px;
 	}
+	h1 {
+		font-family: 'Josefin Sans', 'Arial', sans-serif;
+		font-size: 3em;
+	}
 	h2 {
 		font-family: 'Josefin Sans', 'Arial', sans-serif;
 		font-size: 2em;
@@ -150,7 +154,7 @@
 	}
 	.card-img {
 		border: 10px solid #d9c2a3;
-		 transition: transform .5s;
+		transition: transform .5s;
     	box-shadow: 5px 5px 10px #6f7364;
 	}
 	.card-img:hover {
@@ -181,6 +185,30 @@
 	.icon {
 		width: 80px;
 		padding-top: 10px;
+	}
+	h1 {
+		text-align: center;
+	}
+	.river {
+		display: flex;
+		padding: 1%;
+	}
+	.river img {
+		width: 50%;
+		border: 10px solid #d9c2a3;
+    	box-shadow: 5px 5px 10px #6f7364;
+	}
+	.riverText {
+		width: 50%;
+		padding: 2%;
+	}
+	.riverText h3  {
+		font-family: 'Josefin Sans', 'Arial', sans-serif;
+	}
+	#centerRiver{
+		padding: 25px 0;
+		color: white;
+		background-color: #6B9080;
 	}
 
 /* Footer */
